@@ -1,0 +1,117 @@
+'''portion -1
+
+'''
+#python has inplicit data type
+#python input always take input as str value-->
+a=input()
+print(a)
+print(type(a))
+
+#to make it others data type use the name of other data type-->
+b=int(input())
+print(b)
+print(type(b))
+
+#str and numaric value can work together --->
+
+c,d=4,7
+txt='y'
+
+print(c*txt*d)
+
+
+
+
+
+# if elif else 
+# multiple if checks all the value even if one of condition is true 
+# multiple elif doesn't check other value if one of contion is true 
+
+x=int(input("x= "))
+y=int(input("y= "))
+if(x>y):
+    print("x wins")
+elif(y>x):
+    print("y wins")
+else:
+    print("both are equal")
+
+#gradesheet    
+x=int(input())
+if(x<=100 and x>=90):
+    print("A")
+elif(x<=89 and x>=80):
+    print("B")
+elif(x<=79 and x>=70):
+    print("C")
+
+elif(x<=69 and x>=60):
+    print("D")
+elif(x<=59 and x>=50):
+    print("D-")    
+else:
+    print("fail")
+
+#multiple if -->
+
+y=int(input("y= "))
+
+if(y>=3):
+    print("y is greater then 3")
+if(y>=2):
+    print("y is greater then 2")  
+if(y>=5):
+    print("y is greater then 5")      
+    
+    
+#multiple elif-->
+
+y=int(input("y= "))
+
+if(y>=3):
+    print("y is greater then 3")
+elif(y>=2):
+    print("y is greater then 2")  
+elif(y>=5):
+    print("y is greater then 5")      
+
+
+e= 12
+f= 13
+#arithmatic op= +,-,*,/,%
+print(e+f)
+print(e*f)
+print(e/f)
+print(e%f)
+print(e-f)
+
+#relational op= (==,!=,>=,<=,>,<)
+
+print(e==f)
+print(e!=f)
+print(e>=f)
+print(e<=f)
+print(e>f)
+print(e<f)
+
+
+#assignment op= =, += , *= etc
+
+t=10
+# t=t+2
+t+=2
+print(t)
+
+#updated value
+t*=2
+print(t)
+
+
+#logical op-->
+
+k=4
+l=3
+print(k>2 and k==4)
+print(k<2 and k==4)
+print(k<2 or k==4)
+print(not True)
