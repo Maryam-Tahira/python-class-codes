@@ -1,0 +1,55 @@
+'''
+string --> lot's of char , sequence of char 
+
+'''
+
+print("Maryam")
+
+s="Incipient"
+
+print(s)
+
+s2= "this is \n a str "
+print(s2)
+
+#string operations: 
+
+#concatination -- 2 ta str jog 
+
+a="Maryam"
+b= "Tahira"
+
+
+print(a+" "+b)
+
+
+#length of str 
+
+print(len(a))
+
+c="Incipient"
+#indexing 
+
+print(c[4])
+print(c[2])
+
+
+# c[3]=e;#immutable 
+# print(c)
+
+#slicing 
+
+print(c[2:5])
+print(c[0:3])
+
+print(c[:3])
+
+print(c[5:])
+print(len(c))
+print(c[4:9])
+print(c[4:len(c)])
+
+#replace 
+
+x="xyz"
+print(x.replace("y","a"))
