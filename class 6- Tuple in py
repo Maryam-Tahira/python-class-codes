@@ -1,0 +1,38 @@
+'''
+Tuples-  first ()
+
+different data type 
+
+immutable 
+'''
+
+t1=("tahira",23,78,99.99)
+print(t1)
+print(type(t1))
+# t1[1]=25
+# print(t1)
+
+#single valued tupple
+t2=(23,)
+print(t2)
+print(type(t2))
+#slicing
+print(t1[0:1])
+print(t1[1:])
+print(t1[:3])
+print(t1[-3:-1])
+#empty tupple
+t3=()
+print(t3)
+print(type(t2))
+
+
+#index number
+t4=(5,8,9,6,7,9,9,5,7,3,9,5,6,7)
+v=t4.index(9)
+print(v)
+
+#count 
+x=t4.count(9)
+print(x)
+print(t4[0]*t4[1])
