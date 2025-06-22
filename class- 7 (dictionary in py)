@@ -1,0 +1,42 @@
+'''
+dictionary- key :value 
+
+name:"tahira"
+'''
+# name="maryam"
+# id1=22345
+# bt=AB+
+
+s1={
+    "name":"maryam",
+    "id1":22345,
+    "bt":"AB+"
+}
+
+print(s1)
+
+print(s1['name'])
+print(s1['bt'])
+
+print(s1.keys())
+print(s1.values())
+
+s1.update({"id1":22332})
+print(s1)
+
+s1["name"]="tahira"
+print(s1)
+
+s2={
+    "name":"mim",
+    "id1":2112,
+    "bt":"A+",
+    "subjects":
+        {
+        "bangla":99, "english":85, "math":87
+        }
+        
+    }
+print(s2)
+print(s2['subjects'])
+print(s2['subjects']['english'])
