@@ -1,0 +1,52 @@
+'''sets-> collection of unordered items 
+
+'''
+
+num={1,2,3,4,5}
+print(num)
+print(type(num))
+
+a={10,"maryam",3.33, 23}
+print(a)
+
+print(len(a))
+#dict
+b={ }
+print(type(b))
+#tupple
+c=( )
+print(type(c))
+#set
+d= set( )
+print(type(d))
+# mim k each week jawar por khali set e strawberry gach er fol er number note korte bola hoyeche.
+#ager week gulo soho show korbe
+d.add(10)
+print("after first week:" ,d)
+d.add(15)
+print("after second week:" ,d)
+d.add(18)
+print("after third week:" ,d)
+d.add(25)
+print("after fourth week:" ,d)
+print(len(d))
+
+#value remove korte
+d.remove(18)
+print(d)
+
+#puro set clear korte:
+d.clear()
+print(d)
+print(len(d))
+
+#random number delete
+e={10,38,98,98,46,82}
+print(e)
+e.pop()
+print(e)
+
+#union korte / marge korte
+f={"maryam","incipient","mim","mita"}
+
+print(e.union(f))
