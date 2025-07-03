@@ -1,0 +1,51 @@
+'''
+loops -> command baf bar use korte
+
+loop -> for, while , do-while
+
+for(starting point / initialize ; limitation/ending point; increment/decrement)
+do not the work regular syntex
+
+for i in list:
+print(i)
+
+
+'''
+
+# for(i=1;i<=5;i++):
+#     print("hello") --> regular syntex
+
+
+# list1=[1,2,3,4,5,6,7,8,9]
+
+# for a in list1:
+#     print(a)
+
+# tup1=(11,23,45,55,66,76,78)
+# sum1=0
+# for value in tup1:
+#     sum1=sum1+value  #sum1=34+45
+#     print(sum1)
+# print(sum1)
+
+#numbers print 0-5
+# for i in range(6):
+#     print(i)
+
+#range onujayi value print
+# for i in range(2,9):
+#     print(i)
+
+# #even number print 
+# for i in range(1,11):
+#     if(i%2==0):
+#         print(i)
+
+#1-15 numbers are given, odd number/ 2 ghor gap diye numbers print korte hbe.    
+# for i in range(1,16,2):
+#     print(i)
+
+#reverse print
+for i in range(10,0,-1):
+    print(i)
+    
