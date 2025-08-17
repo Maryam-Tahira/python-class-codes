@@ -1,0 +1,41 @@
+#Loop - kono kaj korbo bar bar setake ekbar command
+# initialization - > starting 
+# while(condition) #ending point
+#work
+
+# print 1-5:
+
+print("1st part:-----> \n")
+i=1
+while i<=5:
+    print(i)
+    i=i+1
+
+print("\n")    
+#print 5-1:
+print("2nd part:-----> \n")
+i=5
+while i>=1:
+    print(i)
+    i=i-1
+print("\n")   
+ 
+#hello world: 5 times using increment-->
+print("3rd part:-----> \n")
+i=1
+while i<=5:
+ 
+    print("hello world",i)
+    i=i+1
+    
+    
+print("\n")   
+ 
+#hello world: 5 times using decrement-->
+print("4th part:-----> \n")
+i=5
+while i>=1:
+ 
+    print("hello world",i)
+    i=i-1
+        
