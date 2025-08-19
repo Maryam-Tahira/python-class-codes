@@ -1,0 +1,54 @@
+# Class 11- function 
+# block of code that perform a specific task 
+
+# structure :------------------------------------------>
+# def fun_name(p1,p2,p3):
+#     some work 
+#     return value
+
+# fun_name(arg1,arg2...)
+
+
+
+#starting code :---------------------------------------->
+#2 number summation:-------------->
+print("1. with return and with parameter:----> ")
+def summation1(a,b):#parameter
+    sum=a+b
+    return sum
+    
+c=summation1(2,5) #argument
+print("summation of 2 number:")
+print("sum=",c) 
+print("\n")
+
+    
+#hello world:----------------->
+print("2.no return no parameter:--------------->\n")
+def hello1():
+    print("printing hello world")
+    print("hello world!")
+    
+hello1()    
+
+#home_question: print summation of 2 number using no return no parameter?
+
+print("\n")   
+
+print("3.no return with p:--------------->")
+
+def sum1(c,d):
+    print("summation c and d:",c+d)
+
+x=10
+y=12
+sum1(x,y)
+    
+print("\n\n 4.with return no parameter:----------> ")  
+
+def fun3():
+    p=33
+    q=11
+    return (p+q)
+
+print(fun3())
