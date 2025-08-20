@@ -1,0 +1,34 @@
+'''
+Class -12 File in python (basic codes)
+
+'''
+# File -> text(.txt, .docx) , binary(.png, .jpg, .mp4, .mp3)
+
+#structure:
+# variable_name=open("file_name",mode)
+
+f=open("demo.txt","w")
+f.write("My name is Maryam")
+f.close()
+
+#append 
+f=open("demo.txt","a")
+f.write("i read in cse")
+f.close()
+
+
+# f=open("demo2.txt","w")
+
+f=open("demo.txt","r")
+data=f.read()
+print(data)
+f.close()
+
+
+
+#append:
+a=open("demo2.txt","a")
+a.write("i read in cse")
+a.close()
+
+
