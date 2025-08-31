@@ -1,0 +1,59 @@
+''' recursion: loop +function   
+    loop-> ekta code 1-5 
+function: single call
+    '''
+
+#5 times hello world
+#regular function:
+def hello():
+    
+    print("hello world")
+    
+hello()  
+hello()  
+hello()  
+hello()  
+hello() 
+
+#recursion rules:
+print("\n \n \n using recursion------------->\n\n")
+
+def hello1(n):
+    if n==6:
+        return
+    print("hello world 2")
+    hello1(n+1)
+
+
+hello1(1)
+
+#1-10 print:
+
+def numb(n):
+    if n==11:
+        return
+    print(n)
+    numb(n+1)
+
+
+
+numb(1)
+
+
+#10-1
+
+def numb(n):
+    if n==0: #base class 
+        return
+    print(n)
+    numb(n-1)
+
+numb(10)
+
+#summation:1->5 =15
+
+def sum1(n):
+    if n==0:
+        return 0
+    return sum1(n-1)+n #sum(4)+5  #sum(3)+4+5 #sum(2)+3+4+5
+    
