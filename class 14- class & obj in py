@@ -1,0 +1,45 @@
+# class 14-OOP-> object oriented programming.
+'''
+oop-> class->blueprint 
+object-> jinish jeta banabo blueprint use kore
+'''
+
+#class create:
+class car:
+    color="blue"
+    name="BMW"
+    
+car1=car()
+print(car1.color)
+print(car1.name)
+ 
+#multiple class 
+class student1:
+    name="maryam"
+    id=111
+    sec="b"
+    
+class student2:
+    name="tahira"
+    id=112
+    sec="b"
+    
+    
+s1=student1()
+s2=student2()
+
+print(s1.name)
+print(s2.name)
+
+
+class pet:
+    name="cow"
+    age=6
+    color="black"
+    
+    
+c1=pet()
+
+print(c1.color)
+print(c1.age)
+    
